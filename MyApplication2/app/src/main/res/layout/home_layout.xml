@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="Home Page" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200px"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Youtube" />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pref"
+        android:layout_alignBottom="@+id/pref"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/pref"
+        android:layout_toRightOf="@+id/pref"
+        android:text="Sensors" />
+
+
+
+    <Button
+        android:id="@+id/pref"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_toEndOf="@+id/linearLayout"
+        android:layout_toRightOf="@+id/linearLayout"
+        android:text="Preferences" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pref"
+        android:layout_marginTop="117dp"
+        android:layout_toLeftOf="@+id/sensor"
+        android:layout_toStartOf="@+id/sensor"
+        android:text="Location" />
+
+</RelativeLayout>
+
+
+
